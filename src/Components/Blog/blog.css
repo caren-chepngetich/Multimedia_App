@@ -1,0 +1,128 @@
+/* 
+.blog-section {
+    /* padding: 3rem 2rem; */
+    /* background-color: #333;
+    border-top: 10px solid #ddd;
+    display: flex;
+    margin-left: -80px;
+    gap: 2px;
+    
+  } */ 
+  
+  /* .blog-section h2 {
+    text-align: center;
+    font-size:
+ 2.5rem;
+    margin-bottom: 2rem;
+    color: #ddd;
+    font-weight: bold;
+  }
+  
+  .blog-container {
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 2px; */
+    /* display: flex; */
+    /* margin-right: 40px;
+    width: 40px;
+
+  }
+  
+  .blog-content, .case-studies {
+    flex: 1;
+    min-width: 300px;
+    max-width: 48px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-content h3, .case-studies h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0b0303;
+    font-weight: bold;
+  }
+  
+  .blog-content p, .case-studies p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .blog-section {
+      padding: 2rem 1rem;
+    }
+  
+    .blog-container {
+      flex-direction: column;
+    }
+  
+    .blog-content, .case-studies {
+      max-width: 100%;
+    }
+  
+    .blog-content h3, .case-studies h3 {
+      font-size: 1.8rem;
+    }
+  
+    .blog-content p, .case-studies p {
+      font-size: 1rem;
+    }
+  }
+   */ 
+   /* General styling for the blog section */
+.blog-section {
+  padding: 20px;
+  background-color: #f4f4f4; 
+  border-radius: 8px; 
+  max-width: 800px; 
+  margin: auto; 
+  box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1); 
+  /* display: flex;
+  gap: 20%; */
+}
+
+/* Styling for the section heading */
+.blog-section h2 {
+  font-size: 2rem;
+  color: #333; 
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+/* Styling for the blog content */
+.blog-content, .case-studies {
+  margin-bottom: 20px; 
+  padding: 15px;
+  background-color: #fff; 
+  border-radius: 5px; 
+  border: 1px solid #ddd; 
+}
+
+/* Styling for the blog content heading */
+.blog-content h3, .case-studies h3 {
+  font-size: 1.5rem;
+  color: #222; 
+  margin-bottom: 10px;
+}
+
+/* Styling for the paragraph text */
+.blog-content p, .case-studies p {
+  font-size: 1rem;
+  color: #555; 
+  line-height: 1.6; 
+}
+
+/* Styling for the links */
+.blog-content a, .case-studies a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.blog-content a:hover, .case-studies a:hover {
+  text-decoration: underline; 
+}

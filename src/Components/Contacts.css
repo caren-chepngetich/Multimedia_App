@@ -1,0 +1,15 @@
+#contact{
+    margin-left: 20%;
+}
+input{
+    width:70%;
+    height: 40px;
+}
+#message{
+    height: 100px;
+}
+button{
+    margin-bottom: 30px;
+    border-radius: 30px;
+    height: 40px;
+}
